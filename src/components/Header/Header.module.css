@@ -1,0 +1,347 @@
+.Header_top {
+    height: 60px;
+    width: 100%;
+    background-color: #779A08;
+    display: flex;
+    justify-content: space-between;
+  }
+.HeaderTop_Text {
+    padding: 5px;
+   
+}
+.NavItems{
+    padding-top: 25px;
+}
+.NavItems li{
+    display: inline;
+    padding-right: 20px;
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #000000;
+    font-family: 'faustina' !important;
+
+}
+.NavItems li{
+    list-style: none;
+}
+.Top {
+    display: flex;
+    margin-top: 5px;
+}
+.Lang{
+    padding-right: 50px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'faustina' !important;
+    padding-top: 6px;
+  }
+  .HeaderCenter{
+    text-align: center !important;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'faustina' !important;
+    font-size: 17px;
+    padding-top: 15px;
+
+  }
+  .Search input{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #E5E4D4;
+    border: none;
+    padding: 2px 15px;
+  }
+  .Search input:focus{
+    border: none !important;
+  }
+  .Search input::placeholder{
+    color: #797979;
+  }
+  .UserProfile{
+    display: flex;
+    margin-top: 10px;
+  }
+  .CartIcon{
+    padding-right: 25px;
+    padding-top: 20px;
+  }
+  .UserProfile p{
+    color: #000000;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'faustina' !important;
+    padding-right: 20px;
+    margin-top: 15px !important;
+
+  }
+  .shopNow{
+    color: #000000;
+  }
+  .Main{
+    width: 100%;
+    height: 90px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+  }
+  .SideDrawer {
+    position: fixed;
+    width: 70% !important;
+    
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background-color:#FFFF;
+    padding: 20px 5px 20px 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+}
+.Links{
+    padding-left: 0px;
+}
+.Links li{
+    list-style: none;
+    border-bottom: 1px solid #779A08;
+    padding: 10px 0px;
+    cursor: pointer;
+
+}
+
+
+.ListPad{
+    padding-top: 30px;
+  
+}
+
+.Cards{
+    display: flex;
+    justify-content: center;
+}
+.CardsItem{
+    width: 300px;
+    height: 70px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.edit{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+}
+.CardsItem p{
+    font-size: 17px;
+    margin-top: 20px;
+    color: #12B296;
+    font-weight: 600;
+}
+.IconShadow{
+    margin-top: 20px;
+    width: 35px;
+    height: 35px;
+    background-color: #f6fdf3;
+    padding:5px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.IconShadowArrow{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #f6fdf3;
+    padding:5px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.IconShadowArrowLeft{
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #f6fdf3;
+    padding:5px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.CloseIcon{
+    float: right;
+    margin-top: 26px !important;
+}
+.Result{
+    color: #314A24;
+    font-size: 16px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.Result:hover{
+    color: #314A24;
+
+}
+.MobileHeader{
+    display: flex;
+    justify-content: space-between;
+   align-items: center; 
+    padding: 0px 0px;
+    box-sizing: border-box;
+    height: 72px;
+  }
+.SideDrawerFooter{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.SideDrawerFooter img{
+    margin: 55px 10px 0px 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.Desk{
+    display: block;
+}
+.Mob{
+    display: none;
+   
+}
+  
+ 
+  
+  .Time {
+    font-weight: 400;
+    font-size: 10px;
+    color: #ffffff;
+    font-family: 'gilroyNormal' !important;
+    margin-top: 5px;
+  }
+  .ContactIcon{
+    width: 15px !important;
+  }
+  .DrawerToggle {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0  10px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}
+.LineTop{
+    width: 60%;
+    height: 3px;
+    background-color: #6E2381;
+}
+.LineMiddle{
+    width: 90%;
+    height: 3px;
+    background-color:#6E2381;
+    
+
+}
+.LineBottom{
+    width: 60%;
+    height: 3px;
+    background-color:#6E2381;
+    
+
+}
+@media (min-width:969px) {
+    .SideDrawer {
+        display: none;
+    }
+    .MobileHeader{
+        display: none;
+    }
+}
+@media (min-width:700px) {
+    .SideDrawer {
+       width: 500px;
+    }
+}
+@media (max-width:327px) {
+    .Profile{
+        width: 55px;
+        height: 55px;
+       
+        margin-left: 10px;
+    }
+   
+    .ProfileHead{
+        font-size: 16px;
+    }
+    .ProfileSubcap{
+        font-size: 8px;
+        color: #fff;
+    }
+    .ProfileList{
+       font-size: 13px;
+    }
+}
+.Open {
+    transform: translateX(0);
+}
+.Close {
+    transform: translateX(-100%);
+}
+.ProfileList{
+    color: #fff;
+ }
+@media (min-width: 989px) {
+    .DrawerToggle {
+        display: none;
+    }
+  
+}
+@media (max-width: 989px) {
+    .Main {
+        display: none;
+    }
+  
+}
+@media (max-width: 635px) {
+    .DrawerToggle {
+        width: 30px;
+        height: 100%;
+        padding: 30px 0  15px 0px;
+    }
+    .Desk{
+        display: none;
+    }
+    .Mob{
+        display: block;
+       
+    }
+    .HeaderCenter{
+        font-size: 13px;
+    }
+    .Lang{
+        font-size: 13px;
+    }
+}
+@media (max-width: 435px) {
+    .DrawerToggle {
+        width: 30px;
+        height: 100%;
+        padding: 30px 0  15px 0px;
+    }
+    .HeaderCenter{
+        font-size: 10px;
+    }
+    .Lang{
+        font-size: 10px;
+    }
+}

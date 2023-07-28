@@ -6,8 +6,28 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@font-face {
+  font-family: 'faustina';
+  src: url(./assets/fonts/Faustina-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'comrarant';
+  src: url('./assets/fonts/CormorantUpright-Medium.ttf');
+}
+@font-face {
+  font-family: 'georama';
+  src: url(./assets/fonts/Georama-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: 'standros';
+  src: url(./assets/fonts/StardosStencil-Regular.ttf);
+}
+.space{
+  display: flex;
+  justify-content: space-between;
+}
+.footCont{
+  color: #000000;
+  font-size: 12px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

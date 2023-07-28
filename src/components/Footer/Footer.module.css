@@ -1,0 +1,99 @@
+.Footer{
+    background-color: #4A790F;
+    min-height: 280px;
+}
+.Logo{
+    padding: 20px;
+}
+.Subscribe{
+    padding-left: 5%;
+}
+.Subscribe label{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-weight: 400;
+
+}
+.Desk{
+    display: block;
+}
+.Mob{
+    display: none;
+}
+.Subscribe input{
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+}
+.Head{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 35px;
+    padding-bottom: 20px;
+
+}
+.SubHead{
+    padding-left: 0px !important;
+}
+.SubHead li{
+    list-style: none;
+    font-size: 16px;
+    color: #c4c4c4;
+    padding-bottom: 10px;
+    
+}
+@media (max-width: 635px) {
+    .Subscribe label{
+        font-size: 12px;
+    }
+    .Desk{
+        display: none;
+    }
+    .Mob{
+        display: block;
+        padding-top: 15px;
+    }
+    .Subscribe input{
+        width: 150px;
+    }
+    .Logo{
+        padding: 00px;
+    }
+    .Head{
+        font-size: 14px;
+    }
+    .SubHead li{
+        font-size: 12px;
+    }
+}
+@media (max-width: 435px) {
+    .Subscribe label{
+        font-size: 10px;
+    }
+    .Desk{
+        display: none;
+    }
+    .Mob{
+        display: block;
+        padding-top: 15px;
+    }
+    .Subscribe input{
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .Logo{
+        padding: 00px;
+    }
+    .Head{
+        font-size: 12px;
+    }
+    .SubHead li{
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+}
